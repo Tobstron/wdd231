@@ -1,0 +1,33 @@
+/* larger.css */
+
+@media screen and (min-width: 768px) {
+
+  #menu-button {
+    display: none;
+  }
+
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .certificate {
+    grid-column: span 2;
+  }
+
+  #courses {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

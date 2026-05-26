@@ -22,6 +22,12 @@ header {
   gap: 1rem;
 }
 
+.logo-area img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
 .logo-area span {
   font-size: 1.2rem;
   font-weight: bold;

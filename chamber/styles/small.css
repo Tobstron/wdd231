@@ -102,6 +102,47 @@ h1 {
   flex-direction: column;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.cta {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #15803d;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.events,
+.weather,
+.spotlights {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+#spotlight-container {
+    display: grid;
+    gap: 1rem;
+}
+
+#spotlight-container div {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
 footer {
   background-color: #0f172a;
   color: white;

@@ -10,6 +10,19 @@
     gap: 1rem;
   }
 
+  .hero {
+    grid-column: span 2;
+}
+
+.spotlights {
+    grid-column: span 2;
+}
+
+#spotlight-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
   header {
     display: flex;
     justify-content: space-between;
@@ -28,3 +41,4 @@
     gap: 1rem;
   }
 }
+

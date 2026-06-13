@@ -31,3 +31,35 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media screen and (min-width: 641px) {
+
+#discover-grid {
+
+    grid-template-areas:
+        "one one two"
+        "three four two"
+        "five six seven"
+        "eight eight seven";
+}
+
+#discover-grid img:hover {
+
+    transform: scale(1.05);
+
+    filter: brightness(1.1);
+
+    transition: .3s;
+}
+}
+
+@media screen and (min-width: 1025px) {
+
+#discover-grid {
+
+    grid-template-areas:
+        "one two three four"
+        "one five six four"
+        "seven seven eight eight";
+}
+}
